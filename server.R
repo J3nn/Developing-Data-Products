@@ -1,4 +1,5 @@
 source("./bmi.R")
+library(shiny)
 
 shinyServer(function(input, output) {
   output$input <- renderText({
